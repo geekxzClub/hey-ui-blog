@@ -1,0 +1,51 @@
+{
+  "pages":[    
+    "pages/index/index",
+    "pages/category/category",
+    "pages/about/about",
+    "pages/about/log/log",
+    "pages/about/introduce/introduce",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#007aff",
+    "navigationBarTitleText": "heyui-blog",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar/basics.png",
+        "selectedIconPath": "images/tabbar/basics_cur.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "images/tabbar/component.png",
+        "selectedIconPath": "images/tabbar/component_cur.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/tabbar/about.png",
+        "selectedIconPath": "images/tabbar/about_cur.png",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff7500",
+    "color": "#593a25",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx39672304efee4abb"
+  ],
+  "usingComponents": {
+    "h-footer": "/component/h-footer/footer"
+  },
+  "sitemapLocation": "sitemap.json"
+}

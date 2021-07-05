@@ -1,0 +1,75 @@
+<!--pages/about/about.wxml-->
+<view class="UCenter-bg">
+  <image src="/images/logo.jpg" class="png" mode="widthFix"></image>
+  <view class="h-text-lg m-t-sm h-text-white">HeyUI博客
+    <text class="h-text-sm">v1.0</text>
+  </view>
+  <view class="m-t-sm h-text-white">
+    <text>By:陈东东</text>
+  </view>
+  <!-- <image src="https://raw.githubusercontent.com/weilanwl/HeyUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image> -->
+</view>
+<view class="p h-flex h-text-center h-text-grey h-bg-white">
+  <view class="h-flex h-flex-sub h-flex-direction h-border-right">
+    <view class="h-text-md h-text-orange">{{visitTotal}}</view>
+    <view class="m-t-sm">
+      <text class="heyui-attentionfill"></text> View</view>
+  </view>
+  <view class="h-flex h-flex-sub h-flex-direction h-border-right">
+    <view class="text-md text-blue">{{starCount}}</view>
+    <view class="m-t-sm">
+      <text class="heyui-favorfill"></text> Star</view>
+  </view>
+  <view class="h-flex h-flex-sub h-flex-direction">
+    <view class="h-text-md h-text-green">{{forksCount}}</view>
+    <view class="m-t-sm">
+      <text class="heyui-fork"></text> Fork</view>
+  </view>
+</view>
+
+<view class="h-list menu card-menu m-tb h-bg-white">
+  <view class="h-item h-arrow">
+    <view class="content" bindtap="copyLink" data-link="https://github.com/geekxzClub/heyui-blog.git">
+      <text class="heyui-github h-text-grey"></text>
+      <text class="h-text-black">GitHub</text>
+    </view>
+  </view>
+  <!-- <view class="h-item h-arrow">
+    <view class="content" bindtap="showQrcode">
+      <text class="heyui-appreciatefill h-text-red"></text>
+      <text class="h-text-black">赞赏支持</text>
+    </view>
+  </view> -->
+  <view class="h-item h-arrow">
+    <button class="h-btn content" open-type="feedback">
+      <text class="heyui-writefill h-text-cyan"></text>
+      <text class="h-text-black">意见反馈</text>
+    </button>
+  </view>
+  <view class="h-item h-arrow">
+    <navigator class="content" target="miniProgram" open-type="navigate" app-id="wx39672304efee4abb" path="" extra-data="" version="release" hover-class="none">
+      <text class="heyui-creativefill h-text-orange"></text>
+      <text class="h-text-black">极客精选官</text>
+    </navigator>
+  </view>
+  <view class="h-item h-arrow">
+    <navigator class="content" url="/pages/about/introduce/introduce" hover-class="none">
+      <text class="heyui-myfill h-text-primary"></text>
+      <text class="h-text-black">关于HBlog</text>
+    </navigator>
+  </view>  
+  <view class="h-item h-arrow">
+    <navigator class="content" url="/pages/about/log/log" hover-class="none">
+      <text class="heyui-formfill h-text-green"></text>
+      <text class="h-text-black">heyUI更新日志</text>
+    </navigator>
+  </view>
+</view>
+
+<view class='h-grid h-grid-1 h-text-center h-text-dark4 h-qrcode'>
+  <view class="h-bg-img m-b-sm">
+    <image class="h-corner-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/geekxz_qrcode.jpg" bindtap="previewImage"></image>
+  </view>
+  <view class="h-text-s p-b-xm">关注极客小寨工作室</view>
+  <view class="h-text-s p-b">点击图片可保存二维码识别</view>
+</view>
