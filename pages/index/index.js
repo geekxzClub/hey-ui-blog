@@ -10,11 +10,11 @@ Page({
     navigate: [{
       url: "/pages/category/category",
       type: "switchTab",
-      text: "分类"
+      text: "Category"
     }, {
       url: "/pages/about/about",
       type: "switchTab",
-      text: "Hey UI Blog"
+      text: "HBlog"
     }],
     copyright: " Copyright © 2021-2050 Hey UI.",
     cardCur: 0,
