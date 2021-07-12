@@ -13,6 +13,8 @@ App({
       }
     })
   },
+  // 引入`towxml3.0`解析方法
+  towxml:require('/plugin/towxml/index'),
   globalData: {
     userInfo: null
   }

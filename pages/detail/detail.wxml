@@ -1,2 +1,61 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="h-bar p-l-sm">
+  <text class="h-text-sm h-text-bold h-text-black">文章标题</text>
+</view>
+<view class="content">
+  <towxml nodes="{{article}}"/>
+</view>
+
+
+
+<view class="h-bar h-bg-white h-border-bottom m-t">
+  <view class="action h-text-sm">
+    <text class="h-text-sm h-text-bold h-text-black">用户评论</text>
+  </view>
+</view>
+<view class="h-list menu-avatar menu comment h-bg-white">
+  <view class="h-item m-t">
+    <view class="h-avatar h-avatar-lg h-corner-lg" style="background-image:url(https://oss.geekxz.com/hey-ui-oss/avatar/a1.jpg);"></view>
+    <view class="content p-l-sm p-b-sm">
+      <view class="h-text-grey">阿花</view>
+      <view class="h-text-gray text-content h-text-sm">
+        阿强，你被自己的光芒变的盲目。
+      </view>
+      <view class="h-bg-grey p-sm radius m-t-sm h-text-s">
+        <view class="h-flex">
+          <view>阿强：</view>
+          <view class="h-flex-sub">妹妹，你在帮他们给黑暗找借口吗?</view>
+        </view>
+      </view>
+      <view class="m-t-sm h-flex h-justify-between">
+        <view class="h-text-gray htext-sm">2020年09月09日</view>
+        <view>
+          <text class="heyui-appreciatefill h-text-red"></text>
+          <text class="heyui-messagefill h-text-gray m-l-sm"></text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="h-item m-t">
+    <view class="h-avatar h-avatar-lg h-corner-lg" style="background-image:url(https://oss.geekxz.com/hey-ui-oss/avatar/a1.jpg);"></view>
+    <view class="content p-l-sm p-b-sm">
+      <view class="h-text-grey">阿花</view>
+      <view class="h-text-gray text-content h-text-sm">
+        阿强，你被自己的光芒变的盲目。
+      </view>
+      <view class="h-bg-grey p-sm radius m-t-sm h-text-s">
+        <view class="h-flex">
+          <view>阿强：</view>
+          <view class="h-flex-sub">妹妹，你在帮他们给黑暗找借口吗?</view>
+        </view>
+      </view>
+      <view class="m-t-sm h-flex h-justify-between">
+        <view class="h-text-gray htext-sm">2020年09月09日</view>
+        <view>
+          <text class="heyui-appreciatefill h-text-red"></text>
+          <text class="heyui-messagefill h-text-gray m-l-sm"></text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
