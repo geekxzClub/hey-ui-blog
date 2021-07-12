@@ -1,7 +1,7 @@
 <!--pages/about/about.wxml-->
 <view class="UCenter-bg">
   <image src="/images/logo.jpg" class="png" mode="widthFix"></image>
-  <view class="h-text-lg m-t-sm h-text-white">HeyUI博客
+  <view class="h-text-lg m-t-sm h-text-white">HBlog博客
     <text class="h-text-sm">v1.0</text>
   </view>
   <view class="m-t-sm h-text-white">

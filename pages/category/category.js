@@ -5,6 +5,12 @@ Page({
     currentTab: 0, //预设当前项的值
     scrollLeft: 0 //tab标题的滚动条位置
   },
+  goToDetail(e){
+    var id = e.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: '/pages/detail/detail?id='+id
+    })
+  },
   onLoad: function() {
     let that = this;
     //  高度自适应

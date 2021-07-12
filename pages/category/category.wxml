@@ -10,7 +10,7 @@
       <scroll-view scroll-y class="scoll-y">
         <!--start 内容部分可直接删除-->
         <view class="h-cate-1-list-view">
-          <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150" bindtap="detail">
+          <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150" bindtap="goToDetail" data-id='1'>
             <view class="h-text-sm h-text-cut2">温故知"心"习大大这些话要牢记</view>
             <view class="h-cate-1-img-container p-t">
               <view class="h-cate-1-cell-img">
