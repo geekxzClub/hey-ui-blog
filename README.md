@@ -33,6 +33,18 @@
 
   HBlog 是基于Hey UI原生语法,实现的简单的个人博客,面向全层次的小程序开发者,低门槛开箱即用的个人博客解决方案.
 
+#### 体验地址
+  后端源码地址: https://github.com/geekxz/heyui-Hblog-service.git
+  pc前端地址：待开发
+  微信小程序：https://github.com/geekxzClub/heyui-blog.git
+
+#### 主要功能
+  - 注册登录：
+  - 文章管理：
+  - 分类管理：
+  - 工具管理：
+  - 用户评论：
+
 
 ## 快速上手
 
