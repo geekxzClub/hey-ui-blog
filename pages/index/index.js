@@ -23,32 +23,28 @@ Page({
     swiperList: [{
         id: 0,
         type: 'image',
-        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner1.jpg'
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png'
       }, {
         id: 1,
           type: 'image',
-        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner2.jpg',
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png',
       }, {
         id: 2,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner3.jpg'
+          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png'
       }, {
         id: 3,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner4.jpg'
+          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png'
       }, {
         id: 4,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner5.jpg'
+          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png'
       }, {
         id: 5,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner6.jpg'
-      }, {
-        id: 6,
-        type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner1.jpg'
-    }],
+          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png'
+      }],
   },
 
   // cardSwiper

@@ -3,7 +3,7 @@
 <swiper class="card-swiper round-dot h-bg-white m-b" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
   <swiper-item wx:for="{{swiperList}}" wx:key='item' class="{{cardCur==index?'cur':''}}">
     <view class="swiper-item">
-      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <image src="{{item.url}}" wx:if="{{item.type=='image'}}"></image>
       <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
     </view>
   </swiper-item>
@@ -41,13 +41,13 @@
 <view class="h-flex h-corner-tlr-sm m-lr p-b">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
     <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
-      <image class="h-corner-tlr-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/banner/banner1.jpg"></image>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png"></image>
     </view>
     <view class="h-active-content p-sm">
-      <view class="h-status h-text-sm h-bg-gray h-text-white">已结束</view>
+      <view class="h-status h-text-sm h-bg-primary h-text-white">HBlog</view>
       <view bindtap="goToDetail"  data-id='1'> 
-      <view class="h-active-tit h-text-sm h-text-cut">2022年杭州亚运会官方用车几何C，全球设计孵化大赛</view>
-      <view class="h-active-time h-text-s h-text-gray">2020/09/01~2020/09/11</view>
+      <view class="h-active-tit h-text-sm h-text-cut">轻博客小程序源码</view>
+      <view class="h-active-time h-text-s h-text-gray">theme of Eric miniprogram wechat</view>
       </view>
       <view class="h-view-time h-border-top p-lr-sm">
         <view class="h-fl h-text-s h-text-gray">          
@@ -65,13 +65,13 @@
 <view class="h-flex h-corner-tlr-sm m-lr p-b">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
     <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
-      <image class="h-corner-tlr-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/banner/banner2.jpg"></image>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png"></image>
     </view>
     <view class="h-active-content p-sm">
-      <view class="h-status h-text-sm h-bg-gray h-text-white">已结束</view>
+      <view class="h-status h-text-sm h-bg-cyan h-text-white">源码</view>
       <view bindtap="goToDetail"  data-id='1'> 
-      <view class="h-active-tit h-text-sm h-text-cut">2022年杭州亚运会官方用车几何C，全球设计孵化大赛</view>
-      <view class="h-active-time h-text-s h-text-gray">2020/09/01~2020/09/11</view>
+      <view class="h-active-tit h-text-sm h-text-cut">swoole+layui即时通信</view>
+      <view class="h-active-time h-text-s h-text-gray">heyui-chat多客服系统</view>
       </view>
       <view class="h-view-time h-border-top p-lr-sm">
         <view class="h-fl h-text-s h-text-gray">          
@@ -89,13 +89,61 @@
 <view class="h-flex h-corner-tlr-sm m-lr p-b">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
     <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
-      <image class="h-corner-tlr-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/banner/banner3.jpg"></image>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png"></image>
     </view>
     <view class="h-active-content p-sm">
-      <view class="h-status h-text-sm h-bg-gray h-text-white">已结束</view>
+      <view class="h-status h-text-sm h-bg-cyan h-text-white">源码</view>
       <view bindtap="goToDetail"  data-id='1'> 
-      <view class="h-active-tit h-text-sm h-text-cut">2022年杭州亚运会官方用车几何C，全球设计孵化大赛</view>
-      <view class="h-active-time h-text-s h-text-gray">2020/09/01~2020/09/11</view>
+      <view class="h-active-tit h-text-sm h-text-cut">基于thinkphp5的CMS</view>
+      <view class="h-active-time h-text-s h-text-gray">基于TP5的高可用的内容管理系统</view>
+      </view>
+      <view class="h-view-time h-border-top p-lr-sm">
+        <view class="h-fl h-text-s h-text-gray">          
+          <text class="heyui-time"> 30天</text>
+        </view>
+        <view class="h-fr h-text-s h-text-gray">
+          <text class="heyui-attention"> 12313</text>
+          <text class="heyui-message m-l-sm"> 77454</text>
+          <text class="heyui-appreciate m-l-sm"> 77454</text>
+        </view>
+      </view>
+    </view>
+  </view>  
+</view>
+<view class="h-flex h-corner-tlr-sm m-lr p-b">
+  <view class="h-active h-flex-sub h-bg-white h-corner-sm">
+    <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png"></image>
+    </view>
+    <view class="h-active-content p-sm">
+      <view class="h-status h-text-sm h-bg-green h-text-white">小程序</view>
+      <view bindtap="goToDetail"  data-id='1'> 
+      <view class="h-active-tit h-text-sm h-text-cut">小程序云开发</view>
+      <view class="h-active-time h-text-s h-text-gray">微信小程序云开发常见问题汇总</view>
+      </view>
+      <view class="h-view-time h-border-top p-lr-sm">
+        <view class="h-fl h-text-s h-text-gray">          
+          <text class="heyui-time"> 32天</text>
+        </view>
+        <view class="h-fr h-text-s h-text-gray">
+          <text class="heyui-attention"> 12313</text>
+          <text class="heyui-message m-l-sm"> 77454</text>
+          <text class="heyui-appreciate m-l-sm"> 77454</text>
+        </view>
+      </view>
+    </view>
+  </view>  
+</view>
+<view class="h-flex h-corner-tlr-sm m-lr p-b">
+  <view class="h-active h-flex-sub h-bg-white h-corner-sm">
+    <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png"></image>
+    </view>
+    <view class="h-active-content p-sm">
+      <view class="h-status h-text-sm h-bg-cyan h-text-white">源码</view>
+      <view bindtap="goToDetail"  data-id='1'> 
+      <view class="h-active-tit h-text-sm h-text-cut">全能建站系统</view>
+      <view class="h-active-time h-text-s h-text-gray">超热门 免费 开源 全能 轻量</view>
       </view>
       <view class="h-view-time h-border-top p-lr-sm">
         <view class="h-fl h-text-s h-text-gray">          
@@ -113,41 +161,17 @@
 <view class="h-flex h-corner-tlr-sm m-lr p-b">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
     <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
-      <image class="h-corner-tlr-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/banner/banner4.jpg"></image>
+      <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png"></image>
     </view>
     <view class="h-active-content p-sm">
-      <view class="h-status h-text-sm h-bg-gray h-text-white">已结束</view>
+      <view class="h-status h-text-sm h-bg-cyan h-text-white">源码</view>
       <view bindtap="goToDetail"  data-id='1'> 
-      <view class="h-active-tit h-text-sm h-text-cut">2022年杭州亚运会官方用车几何C，全球设计孵化大赛</view>
-      <view class="h-active-time h-text-s h-text-gray">2020/09/01~2020/09/11</view>
+      <view class="h-active-tit h-text-sm h-text-cut">建站首选</view>
+      <view class="h-active-time h-text-s h-text-gray">超热门 免费 开源 全能 轻量</view>
       </view>
       <view class="h-view-time h-border-top p-lr-sm">
         <view class="h-fl h-text-s h-text-gray">          
-          <text class="heyui-time"> 42天</text>
-        </view>
-        <view class="h-fr h-text-s h-text-gray">
-          <text class="heyui-attention"> 12313</text>
-          <text class="heyui-message m-l-sm"> 77454</text>
-          <text class="heyui-appreciate m-l-sm"> 77454</text>
-        </view>
-      </view>
-    </view>
-  </view>  
-</view>
-<view class="h-flex h-corner-tlr-sm m-lr p-b">
-  <view class="h-active h-flex-sub h-bg-white h-corner-sm">
-    <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
-      <image class="h-corner-tlr-sm" mode="aspectFill" src="https://oss.geekxz.com/hey-ui-oss/banner/banner5.jpg"></image>
-    </view>
-    <view class="h-active-content p-sm">
-      <view class="h-status h-text-sm h-bg-gray h-text-white">已结束</view>
-      <view bindtap="goToDetail"  data-id='1'> 
-      <view class="h-active-tit h-text-sm h-text-cut">2022年杭州亚运会官方用车几何C，全球设计孵化大赛</view>
-      <view class="h-active-time h-text-s h-text-gray">2020/09/01~2020/09/11</view>
-      </view>
-      <view class="h-view-time h-border-top p-lr-sm">
-        <view class="h-fl h-text-s h-text-gray">          
-          <text class="heyui-time"> 42天</text>
+          <text class="heyui-time"> 15天</text>
         </view>
         <view class="h-fr h-text-s h-text-gray">
           <text class="heyui-attention"> 12313</text>
