@@ -1,12 +1,12 @@
 <!--pages/template/template.wxml-->
 <view class="h-flex h-corner-tlr-sm m-lr p-t">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
-    <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
+    <view class="h-active-img" bindtap="goToDetail" data-id='1'>
       <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png"></image>
     </view>
     <view class="h-active-content p-sm">
       <view class="h-status h-text-sm h-bg-primary h-text-white">HBlog</view>
-      <view bindtap="goToDetail"  data-id='1'> 
+      <view bindtap="goToDetail" data-id='1'> 
       <view class="h-active-tit h-text-sm h-text-cut">轻博客小程序源码</view>
       <view class="h-active-time h-text-s h-text-gray">theme of Eric miniprogram wechat</view>
       </view>
@@ -25,7 +25,7 @@
 </view>
 <view class="h-flex h-corner-tlr-sm m-lr p-t">
   <view class="h-active h-flex-sub h-bg-white h-corner-sm">
-    <view class="h-active-img"  bindtap="goToDetail" data-id='1'>
+    <view class="h-active-img" bindtap="goToDetail" data-id='1'>
       <image class="h-corner-tlr-sm" src="https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png"></image>
     </view>
     <view class="h-active-content p-sm">
