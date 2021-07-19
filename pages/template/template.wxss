@@ -1,4 +1,4 @@
-/**index.wxss**/
+/* pages/template/template.wxss */
 /* Card */
 .h-active{
   height: 560rpx;
@@ -55,40 +55,4 @@
     border: 16px solid transparent;
     border-left: 10px solid #ffffff;
     left: 0;
-}
-
-
-.h-nav .h-scroll-x{
-  width: 46%;
-  margin: 0rpx 0rpx;
-  padding: 0 15rpx
-}
-.h-nav .h-scroll-x:first-child{
-  padding-left: 30rpx
-}.h-nav .h-scroll-x:last-child{
-  padding-right: 30rpx
-}
-.h-scroll-x .h-scroll-item{
-  height: 400rpx;
-}
-.h-scroll-img{
-  width: 100%;
-  height: 330rpx;
-}
-.h-scroll-img image{
-  width: 100%; 
-  height: 330rpx;
-}
-.h-scroll-content{
-  height: 70rpx;
-  line-height: 70rpx; 
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre-line;
-  display: inline;
-}
-
-.h-scroll-tit{
-  height: 70rpx;
-  line-height: 70rpx; 
 }

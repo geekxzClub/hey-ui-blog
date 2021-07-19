@@ -11,48 +11,48 @@
         <!--start 内容部分可直接删除-->
         <view class="h-cate-1-list-view">
           <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150" bindtap="goToDetail" data-id='1'>
-            <view class="h-text-sm h-text-cut2">温故知"心"习大大这些话要牢记</view>
+            <view class="h-text-sm h-text-cut2">轻博客小程序源码</view>
             <view class="h-cate-1-img-container p-t">
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner1.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner2.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner3.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png' class="h-cate-1img"></image>
               </view>
             </view>
             <view class="h-cate-1-sub-title h-text-gray p-t">
-              <text class="h-tag h-bg-red h-corner-sm m-r-sm">要闻</text>
-              <text class="h-text-s">央视网新闻</text>
+              <text class="h-tag h-bg-red h-corner-sm m-r-sm">HBlog</text>
+              <text class="h-text-s">微信小程序</text>
             </view>
           </view>
 
           <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150">
-            <view class="h-text-sm h-text-cut2">美国会表决通过新驻华大使 月底有望赴华</view>
+            <view class="h-text-sm h-text-cut2">swoole+layui即时通信 heyui-chat多客服系统</view>
             <view class="h-cate-1-sub-title h-text-gray p-t">
               <text class="h-tag h-bg-blue h-corner-sm m-r-sm">朋友都看过</text>
-              <text class="h-text-s">百科故事大全</text>
+              <text class="h-text-s">客服系统</text>
             </view>
           </view>
 
           <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150">
-            <view class="h-text-sm h-text-cut2">哪些专业毕业后收入高?计算机、金融专业排前列金融专业排前列金融专业排前列金融专业排前列金融专业排前列</view>
+            <view class="h-text-sm h-text-cut2">基于TP5的高可用的内容管理系统</view>
             <view class="h-cate-1-img-container p-t">
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner4.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner5.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner6.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png' class="h-cate-1img"></image>
               </view>
             </view>
             <view class="h-cate-1-sub-title h-text-gray p-t">
-              <text class="h-tag h-bg-orange h-corner-sm m-r-sm">本地资讯</text>
-              <text class="h-text-s">粤港精英联盟</text>
+              <text class="h-tag h-bg-orange h-corner-sm m-r-sm">网站源码</text>
+              <text class="h-text-s">Heyui cms</text>
             </view>
           </view>
 
@@ -65,21 +65,21 @@
           </view>
 
           <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150">
-            <view class="h-text-sm h-text-cut2">开户大战燎原！加急上线科创板预约开户</view>
+            <view class="h-text-sm h-text-cut2">小程序云开发！微信小程序云开发常见问题汇总</view>
             <view class="h-cate-1-img-container p-t">
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner6.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner5.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner4.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png' class="h-cate-1img"></image>
               </view>
             </view>
             <view class="h-cate-1-sub-title h-text-gray p-t">
               <!-- <text class="h-tag h-bg-orange m-r-sm">本地资讯</text> -->
-              <text class="h-text-s">粤港精英联盟</text>
+              <text class="h-text-s">小程序云开发</text>
             </view>
           </view>
 
@@ -92,21 +92,21 @@
           </view>
 
           <view class="h-cate-1-list-cell p h-border-bottom" hover-class="hover" hover-stay-time="150">
-            <view class="h-text-sm h-text-cut2">哪些专业毕业后收入高?计算机、金融专业排前列金融专业排前列</view>
+            <view class="h-text-sm h-text-cut2">全能建站系统 超热门 免费 开源 全能 轻量</view>
             <view class="h-cate-1-img-container p-t">
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner1.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner2.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png' class="h-cate-1img"></image>
               </view>
               <view class="h-cate-1-cell-img">
-                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner3.jpg' class="h-cate-1img"></image>
+                <image src='https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png' class="h-cate-1img"></image>
               </view>
             </view>
             <view class="h-cate-1-sub-title h-text-gray p-t">
-              <text class="h-tag h-bg-orange h-corner-sm m-r-sm">本地资讯</text>
-              <text class="h-text-s">粤港精英联盟</text>
+              <text class="h-tag h-bg-orange h-corner-sm m-r-sm">源码</text>
+              <text class="h-text-s">网站开发</text>
             </view>
           </view>
 

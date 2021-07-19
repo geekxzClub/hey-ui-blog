@@ -1,42 +1,32 @@
-// pages/detail/detail.js
-//获取应用实例
-const app = getApp();
+// pages/template/template.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isLoading: true,                    // 判断是否尚在加载中
-    article: {}                     // 内容数据
+    navigate: [{
+      url: "/pages/category/category",
+      type: "switchTab",
+      text: "Category"
+    }, {
+      url: "/pages/about/about",
+      type: "switchTab",
+      text: "HBlog"
+    }],
+    copyright: " Copyright © 2021-2050 Hey UI.",
   },
-
+  goToDetail(e){
+    var id = e.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: '/pages/detail/detail?id='+id
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let md = `# # 一级标题
-## ## 二级标题
-### ### 三级标题
-#### #### 四级标题
-##### ##### 五级标题
-###### ###### 六级标题
-    `
-    let result = app.towxml(md,'markdown',{
-      base:'https://xxx.com',     // 相对资源的base路径
-      theme:'light',               // 主题，默认`light`
-      events:{                    // 为元素绑定的事件方法
-          tap:(e)=>{
-              console.log('tap',e);
-          }
-      }
-    });
 
-  // 更新解析数据
-    this.setData({
-      article:result,
-      isLoading: false
-    });
   },
 
   /**

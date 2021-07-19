@@ -1,1 +1,17 @@
 /* pages/detail/detail.wxss */
+.h2w__main{
+  margin: 0px;
+  padding-bottom: 20rpx;
+}
+.h2w__main .h2w__h1{
+  border-bottom-style: none;
+  border-bottom-width: none;
+  font-size: 42rpx;
+  padding-bottom: 0rpx;
+  margin-bottom: 10rpx;
+}
+.h2w__main .h2w__h2{
+  border-bottom-style: none;
+  padding-bottom: 0rpx;
+  margin-bottom: 10rpx;
+}

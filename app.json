@@ -2,6 +2,7 @@
   "pages":[    
     "pages/index/index",
     "pages/category/category",
+    "pages/template/template",
     "pages/about/about",
     "pages/about/log/log",
     "pages/about/introduce/introduce",
@@ -27,6 +28,12 @@
         "iconPath": "images/tabbar/component.png",
         "selectedIconPath": "images/tabbar/component_cur.png",
         "text": "分类"
+      },
+      {
+        "pagePath": "pages/template/template",
+        "iconPath": "images/tabbar/component.png",
+        "selectedIconPath": "images/tabbar/component_cur.png",
+        "text": "模板"
       },
       {
         "pagePath": "pages/about/about",

@@ -23,27 +23,33 @@ Page({
     swiperList: [{
         id: 0,
         type: 'image',
+        title: '轻博客小程序源码',
         url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-01.png'
       }, {
         id: 1,
-          type: 'image',
+        type: 'image',
+        title: 'swoole+layui即时通信',
         url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-02.png',
       }, {
         id: 2,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png'
+        title: '基于TP5的高可用的内容管理系统',
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-03.png'
       }, {
         id: 3,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png'
+        title: '微信小程序云开发常见问题汇总',
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-04.png'
       }, {
         id: 4,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png'
+        title: '全能建站系统',
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-05.png'
       }, {
         id: 5,
         type: 'image',
-          url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png'
+        title: '建站首选',
+        url: 'https://oss.geekxz.com/hey-ui-oss/banner/banner-06.png'
       }],
   },
 
