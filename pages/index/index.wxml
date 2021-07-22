@@ -12,27 +12,36 @@
 <!-- 分类 -->
 <view class="h-list h-grid h-grid-4 no-border m-lr m-b h-corner-sm">
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a5.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/web1.png" class="png" mode="aspectFit"></image></view>
     <text>前端</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a6.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/admin.png" class="png" mode="aspectFit"></image></view>
     <text>后端</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a4.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/wechatapp.png" class="png" mode="aspectFit"></image></view>
     <text>小程序</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a1.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/temp.png" class="png" mode="aspectFit"></image></view>
+    
     <text>模板</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a2.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/shouce.png" class="png" mode="aspectFit"></image></view>
+    <text>公众号</text>
+  </view>
+  <view class="h-item">
+    <view class="h-text-yellow"><image src="/images/cate/shouce.png" class="png" mode="aspectFit"></image></view>
+    <text>工具</text>
+  </view>
+  <view class="h-item">
+    <view class="h-text-yellow"><image src="/images/cate/shouce.png" class="png" mode="aspectFit"></image></view>
     <text>开发手册</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="https://oss.geekxz.com/hey-ui-oss/avatar/a3.jpg" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/other.png" class="png" mode="aspectFit"></image></view>
     <text>其他</text>
   </view>
 </view>

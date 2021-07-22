@@ -21,6 +21,7 @@ Page({
 #### #### 四级标题
 ##### ##### 五级标题
 ###### ###### 六级标题
+![](https://oss.geekxz.com/hey-ui-oss/communication_primary.png)
     `
     let result = app.towxml(md,'markdown',{
       base:'https://xxx.com',     // 相对资源的base路径

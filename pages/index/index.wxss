@@ -1,4 +1,10 @@
 /**index.wxss**/
+
+.h-list.h-grid>.h-item image{
+	height: 70rpx;
+	width: 70rpx;
+	border-radius: 0rpx;
+}
 /* Card */
 .h-active{
   height: 560rpx;

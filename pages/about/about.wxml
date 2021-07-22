@@ -9,7 +9,21 @@
   </view>
   <!-- <image src="https://raw.githubusercontent.com/weilanwl/HeyUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image> -->
 </view>
-<view class="p h-flex h-text-center h-text-grey h-bg-white">
+
+<view class="waveWrapper waveAnimation h-h-bg-white">
+  <view class="waveWrapperInner bgTop">
+    <view class="wave waveTop" style="background-image:url('https://oss.geekxz.com/hey-ui-oss/wave/wave-top.png')"></view>
+  </view>
+  <view class="waveWrapperInner bgMiddle">
+    <view class="wave waveMiddle" style="background-image:url('https://oss.geekxz.com/hey-ui-oss/wave/wave-mid.png')"></view>
+  </view>
+  <view class="waveWrapperInner bgBottom">
+    <view class="wave waveBottom" style="background-image:url('https://oss.geekxz.com/hey-ui-oss/wave/wave-bot.png')"></view>
+  </view>
+</view>
+
+
+<!-- <view class="p h-flex h-text-center h-text-grey h-bg-white">
   <view class="h-flex h-flex-sub h-flex-direction h-border-right">
     <view class="h-text-md h-text-orange">{{visitTotal}}</view>
     <view class="m-t-sm">
@@ -25,7 +39,7 @@
     <view class="m-t-sm">
       <text class="heyui-fork"></text> Fork</view>
   </view>
-</view>
+</view> -->
 
 <view class="h-list menu card-menu m-tb h-bg-white">
   <view class="h-item h-arrow">

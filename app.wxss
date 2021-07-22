@@ -1,5 +1,5 @@
 /**app.wxss**/
-@import "hey-ui/heyui.main.wxss";
+@import "hey-ui/heyui.main.min.wxss";
 @import "hey-ui/icon.wxss";
 /* 引入主题色 */
 @import "hey-ui/theme.wxss";
