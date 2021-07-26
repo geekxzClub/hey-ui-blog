@@ -12,7 +12,7 @@
 <!-- 分类 -->
 <view class="h-list h-grid h-grid-4 no-border m-lr m-b h-corner-sm">
   <view class="h-item">
-    <view class="h-text-yellow"><image src="/images/cate/web1.png" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/web.png" class="png" mode="aspectFit"></image></view>
     <text>前端</text>
   </view>
   <view class="h-item">
@@ -33,7 +33,7 @@
     <text>公众号</text>
   </view>
   <view class="h-item">
-    <view class="h-text-yellow"><image src="/images/cate/shouce.png" class="png" mode="aspectFit"></image></view>
+    <view class="h-text-yellow"><image src="/images/cate/tools.png" class="png" mode="aspectFit"></image></view>
     <text>工具</text>
   </view>
   <view class="h-item">
