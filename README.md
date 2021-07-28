@@ -50,6 +50,16 @@
 
 ## 快速上手
 
+### 安装
+
+### 引入
+
+### 效果图
+<p align="center">
+    <img width="800" src="https://oss.geekxz.com/hey-ui-oss/HBlog/hblog-show-1.png">
+</p>
+
+
 ## 讨论交流
 
 <p align="center">
