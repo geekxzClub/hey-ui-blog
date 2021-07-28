@@ -58,7 +58,9 @@
 <p align="center">
     <img width="800" src="https://oss.geekxz.com/hey-ui-oss/HBlog/hblog-show-1.png">
 </p>
-
+<p align="center">
+    <img width="800" src="https://oss.geekxz.com/hey-ui-oss/HBlog/hblog-show-2.png">
+</p>
 
 ## 讨论交流
 
