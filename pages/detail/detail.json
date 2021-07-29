@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "文章详情",
   "usingComponents": { 
     "decode": "/plugin/towxml/decode",
     "audio-player": "/plugin/towxml/audio-player/audio-player",
