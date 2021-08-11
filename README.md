@@ -50,7 +50,7 @@
 
   直接通过git下载 HBlog 源代码，然后直接小程序开发者工具导入项目即可.
   ```
-  git clone https://github.com/geekxzClub/hey-ui.git
+  git clone https://github.com/geekxzClub/heyui-blog.git
   ```
 
 ### 效果图
